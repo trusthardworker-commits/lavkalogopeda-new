@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Каталог — Лавка Логопеда</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Каталог магазина «Лавка Логопеда»: зонды, материалы для постановки звуков, массаж, развивающие игры и пособия для логопедов, педагогов и родителей.">
+<meta name="theme-color" content="#0145aa">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://lavkalogopeda.ru/catalog/">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="256x256" href="../assets/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body data-page="catalog">
+<script src="../assets/js/config.js"></script><script src="../assets/js/data.js"></script><script src="../assets/js/shop.js"></script><script src="../assets/js/core.js"></script>
+<main id="main" tabindex="-1">
+<div class="page-head"><div class="w">
+<nav class="crumbs" aria-label="Навигационная цепочка"><ol><li><a href="../">Главная</a></li><li><span id="crumb-cat" aria-current="page">Каталог</span></li></ol></nav>
+<h1 class="h-page">Каталог</h1>
+<div class="notice"><span><b>Демо-товары:</b> названия, цены и наличие — примеры, реального ассортимента пока нет. Сайт в режиме подготовки: заказы и заявки магазину пока не передаются.</span></div>
+</div></div>
+<div class="w" style="padding-bottom:var(--sec)">
+<form class="toolbar" id="tb" role="search" novalidate>
+<div class="sfield"><label class="sr-only" for="q">Поиск по каталогу</label><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="q" type="search" placeholder="Название или артикул" autocomplete="off" maxlength="100" enterkeyhint="search" list="sg"><datalist id="sg"></datalist><button type="button" class="clear" id="qclear" aria-label="Очистить поиск" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+<div><label class="sr-only" for="s">Сортировка</label><select id="s"><option value="name">По названию</option><option value="price-asc">Сначала дешёвые</option><option value="price-desc">Сначала дорогие</option><option value="stock">Сначала в наличии</option></select></div>
+<label class="switch"><input type="checkbox" id="av"><i aria-hidden="true"></i><span>В наличии</span></label>
+</form>
+<nav class="chips" id="chips" aria-label="Разделы каталога"></nav>
+<div class="resbar"><p class="resinfo" id="resinfo" role="status" aria-live="polite"></p><button type="button" class="linkbtn" id="reset" data-a="reset" hidden>Сбросить фильтры</button></div>
+<div class="grid pgrid" id="grid"><div class="sk" aria-hidden="true"></div><div class="sk" aria-hidden="true"></div><div class="sk" aria-hidden="true"></div><div class="sk" aria-hidden="true"></div></div>
+<nav class="pg" id="pg" aria-label="Страницы каталога" hidden></nav><p class="pgf" id="pgf" aria-hidden="true"></p>
+</div>
+</main>
+<div id="site-footer"></div>
+<script src="../assets/js/cart.js"></script><script src="../assets/js/catalog.js"></script>
+</body>
+</html>
